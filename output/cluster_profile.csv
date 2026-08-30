@@ -1,0 +1,4 @@
+Cluster,RiskSegment,RiskScore,CreditScore,Monthlyincome,LoanAmount,Totaldebttoincomeratio,SavingsAccountBalance,NetWorth,LoanApproved
+0,Moderate Risk,54.28,565.887,3825.138,21176.696,35.875,4825.994,51394.456,0.02
+1,High Risk,54.254,562.113,2971.125,43398.781,91.592,5213.492,70015.419,0.0
+2,Low Risk,40.698,589.454,8452.656,20915.836,16.265,5026.634,117044.021,0.844

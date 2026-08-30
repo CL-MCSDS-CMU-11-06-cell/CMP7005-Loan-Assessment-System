@@ -1,0 +1,56 @@
+{
+  "risk_median": 51.0,
+  "marital_mode": "Married",
+  "rows": 20000,
+  "approval_rate": 0.239,
+  "model_features": [
+    "Age",
+    "CreditScore",
+    "AnnualIncome",
+    "EmploymentStatus",
+    "Experience",
+    "LoanAmount",
+    "LoanDuration",
+    "MonthlyDebtPayments",
+    "PreviousLoanDefaults",
+    "PaymentHistory",
+    "InterestRate",
+    "RiskScore",
+    "Totaldebttoincomeratio"
+  ],
+  "cluster_features": [
+    "RiskScore",
+    "CreditScore",
+    "Monthlyincome",
+    "LoanAmount",
+    "Totaldebttoincomeratio",
+    "SavingsAccountBalance",
+    "NetWorth"
+  ],
+  "cluster_label_map": {
+    "1": "High Risk",
+    "0": "Moderate Risk",
+    "2": "Low Risk"
+  },
+  "employment_values": [
+    "Employed",
+    "Self-Employed",
+    "Unemployed"
+  ],
+  "loan_durations": [
+    12,
+    24,
+    36,
+    48,
+    60,
+    72,
+    84,
+    96,
+    108,
+    120
+  ],
+  "pca_explained_variance": [
+    0.3975437103680689,
+    0.200591753607907
+  ]
+}
